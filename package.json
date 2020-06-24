@@ -17,6 +17,8 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "chrome-launcher": "^0.13.3",
+    "chrome-remote-interface": "^0.28.2",
     "debug": "^4.1.1",
     "finalhandler": "^1.1.1",
     "morgan": "^1.9.1",
@@ -31,5 +33,19 @@
     "eslint-plugin-standard": "^4.0.0",
     "mocha": "^6.0.2",
     "supertest": "^3.4.2"
-  }
+  },
+  "bin": {
+    "dss": "dss.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengreenier/node-dss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bengreenier/node-dss/issues"
+  },
+  "homepage": "https://github.com/bengreenier/node-dss#readme"
 }
